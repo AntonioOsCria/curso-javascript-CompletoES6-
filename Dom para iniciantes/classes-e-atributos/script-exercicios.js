@@ -13,7 +13,9 @@ itensMenu[0].classList.add('ativo');
 // Verifique se as imagens possuem o atributo alt
 const imgs = document.querySelectorAll('img');
 
-console.log(imgs  );
+console.log(imgs);
+
+
 
 // Modifique o href do link externo no menu
 
