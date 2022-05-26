@@ -1,27 +1,8 @@
-// Mostre no console cada parágrado do site
-const paragrafos = document.querySelectorAll('p');
-console.log(paragrafos);
+// Adicione a classe ativo a todos os itens do menu
 
-paragrafos.forEach((item) => {
-  console.log(item)
-})
-// Mostre o texto dos parágrafos no console
-paragrafos.forEach((item) => {
-  console.log(item.innerText);
-})
-// Como corrigir os erros abaixo:
-const imgs = document.querySelectorAll('img');
+// Remove a classe ativo de todos os itens do menu e mantenha apenas no primeiro
 
-imgs.forEach((item,index) => {
-  console.log(item, index);
-})
+// Verifique se as imagens possuem o atributo alt
 
-let i = 0;
-imgs.forEach(() => {
-  console.log(i++)
-});
-
-imgs.forEach(() => i++);
-
-console.log(i);
+// Modifique o href do link externo no menu
 
