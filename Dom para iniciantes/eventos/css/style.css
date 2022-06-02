@@ -2,6 +2,17 @@ body, h1, h2, h3, ul, li, p, dt, dd {
   margin: 0px;
   padding: 0px;
 }
+.azul {
+  background-color: aqua;
+}
+.vermelho {
+  background-color: #222;
+  color: white;
+}
+
+html.textoMaior{
+ font-size: 150%;
+}
 
 img {
   display: block;
